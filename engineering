@@ -1,0 +1,115 @@
+<!-- engineering_home.htm -->
+<!-- Name: [Your Name] -->
+<!-- Date: [Today's Date] -->
+<!-- Description: Home page introducing engineering -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Engineering World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Engineering World</h1>
+    <p>Engineering shapes the world around us. It is a field that combines science, technology, and creativity to solve real-world problems.</p>
+    
+    <h2>Fields of Engineering</h2>
+    <ul>
+        <li>Mechanical Engineering</li>
+        <li>Electrical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Software Engineering</li>
+    </ul>
+    
+    <h2>Explore More</h2>
+    <p>Learn about engineering careers <a href="engineering_careers.htm">here</a>.</p>
+    
+    <img src="engineering.jpg" alt="Engineering Image" width="400">
+</body>
+</html>
+
+<!-- engineering_careers.htm -->
+<!-- Name: [Your Name] -->
+<!-- Date: [Today's Date] -->
+<!-- Description: Careers page listing engineering jobs -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Engineering Careers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Engineering Careers</h1>
+    <p>Engineering offers a variety of career paths with great opportunities. Here are some common engineering jobs:</p>
+    
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Job Title</th>
+                <th>Average Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mechanical Engineering</td>
+                <td>Automotive Engineer</td>
+                <td>$80,000</td>
+            </tr>
+            <tr>
+                <td>Electrical Engineering</td>
+                <td>Power Systems Engineer</td>
+                <td>$85,000</td>
+            </tr>
+            <tr>
+                <td>Software Engineering</td>
+                <td>Web Developer</td>
+                <td>$90,000</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <p>Return to the <a href="engineering_home.htm">Home Page</a>.</p>
+</body>
+</html>
+
+/* style.css */
+/* Name: [Your Name] */
+/* Date: [Today's Date] */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+h2 {
+    color: #555;
+}
+p {
+    font-size: 16px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #0073e6;
+    color: white;
+}
